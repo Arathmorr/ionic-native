@@ -5,6 +5,8 @@ export interface StreamingVideoOptions {
   successCallback?: Function;
   errorCallback?: Function;
   orientation?: string;
+  user?: string;
+  sid?: string;
 }
 
 export interface StreamingAudioOptions {
@@ -14,6 +16,8 @@ export interface StreamingAudioOptions {
   initFullscreen?: boolean;
   successCallback?: Function;
   errorCallback?: Function;
+  user?: string;
+  sid?: string;
 }
 
 /**
